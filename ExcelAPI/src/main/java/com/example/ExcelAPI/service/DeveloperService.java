@@ -14,9 +14,9 @@ public interface DeveloperService {
 
     public  boolean checkExcelFormat(MultipartFile file);
 
-    public  List<DeveloperEntity> convertExcelToListOfProduct(InputStream is);
+    public  List<DeveloperEntity> convertExcelToListOfDeveloper(InputStream is);
 
     public void save(MultipartFile file);
 
-    public List<DeveloperEntity> getAllProducts();
+    public List<DeveloperEntity> getAllDevelopers();
 }
